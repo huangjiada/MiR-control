@@ -1,0 +1,11 @@
+C:\Users\ASM\Desktop\WPF\MiRbutton\HttpRequesttest\bin\Debug\HttpRequesttest.exe.config
+C:\Users\ASM\Desktop\WPF\MiRbutton\HttpRequesttest\obj\Debug\HttpRequesttest.csprojResolveAssemblyReference.cache
+C:\Users\ASM\Desktop\WPF\MiRbutton\HttpRequesttest\bin\Debug\HttpRequesttest.exe
+C:\Users\ASM\Desktop\WPF\MiRbutton\HttpRequesttest\bin\Debug\HttpRequesttest.pdb
+C:\Users\ASM\Desktop\WPF\MiRbutton\HttpRequesttest\bin\Debug\MiRControl.exe
+C:\Users\ASM\Desktop\WPF\MiRbutton\HttpRequesttest\bin\Debug\MiRControl.pdb
+C:\Users\ASM\Desktop\WPF\MiRbutton\HttpRequesttest\obj\Debug\HttpRequesttest.exe
+C:\Users\ASM\Desktop\WPF\MiRbutton\HttpRequesttest\obj\Debug\HttpRequesttest.pdb
+C:\Users\ASM\Desktop\WPF\MiRbutton\HttpRequesttest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ASM\Desktop\WPF\MiRbutton\HttpRequesttest\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\ASM\Desktop\WPF\MiRbutton\HttpRequesttest\bin\Debug\Newtonsoft.Json.xml

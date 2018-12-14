@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiRControl", "MiRControl\MiRControl.csproj", "{35FFAB63-288D-42AC-B3E5-CCC1FC51615C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerTooLow", "PowerTooLow\PowerTooLow.csproj", "{A28A7624-7F34-4E51-91C3-0E7FF9A9DE56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpRequesttest", "HttpRequesttest\HttpRequesttest.csproj", "{9C6EE681-7E1C-4F1C-9A1E-1253CAED3E18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeElapse", "TimeElapse\TimeElapse.csproj", "{5E6A16D2-5CDC-405F-99CF-C2D9E5B1A5AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoUpdate", "AutoUpdate\AutoUpdate.csproj", "{7BF5FA78-188A-4060-B856-02414E0D4A4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chat1", "chat1\chat1.csproj", "{43B086A5-D3A6-4487-A8F1-788A0A284A98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chat2", "chat2\chat2.csproj", "{EF673CDA-74FC-4EB7-9FB9-A4AE2666AF93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35FFAB63-288D-42AC-B3E5-CCC1FC51615C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35FFAB63-288D-42AC-B3E5-CCC1FC51615C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35FFAB63-288D-42AC-B3E5-CCC1FC51615C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35FFAB63-288D-42AC-B3E5-CCC1FC51615C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A28A7624-7F34-4E51-91C3-0E7FF9A9DE56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A28A7624-7F34-4E51-91C3-0E7FF9A9DE56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A28A7624-7F34-4E51-91C3-0E7FF9A9DE56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A28A7624-7F34-4E51-91C3-0E7FF9A9DE56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C6EE681-7E1C-4F1C-9A1E-1253CAED3E18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C6EE681-7E1C-4F1C-9A1E-1253CAED3E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C6EE681-7E1C-4F1C-9A1E-1253CAED3E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C6EE681-7E1C-4F1C-9A1E-1253CAED3E18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E6A16D2-5CDC-405F-99CF-C2D9E5B1A5AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E6A16D2-5CDC-405F-99CF-C2D9E5B1A5AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E6A16D2-5CDC-405F-99CF-C2D9E5B1A5AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E6A16D2-5CDC-405F-99CF-C2D9E5B1A5AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BF5FA78-188A-4060-B856-02414E0D4A4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BF5FA78-188A-4060-B856-02414E0D4A4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BF5FA78-188A-4060-B856-02414E0D4A4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BF5FA78-188A-4060-B856-02414E0D4A4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43B086A5-D3A6-4487-A8F1-788A0A284A98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43B086A5-D3A6-4487-A8F1-788A0A284A98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43B086A5-D3A6-4487-A8F1-788A0A284A98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43B086A5-D3A6-4487-A8F1-788A0A284A98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF673CDA-74FC-4EB7-9FB9-A4AE2666AF93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF673CDA-74FC-4EB7-9FB9-A4AE2666AF93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF673CDA-74FC-4EB7-9FB9-A4AE2666AF93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF673CDA-74FC-4EB7-9FB9-A4AE2666AF93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

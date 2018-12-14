@@ -1,0 +1,16 @@
+C:\Users\asm\Desktop\WPF\MiRControl\MiRControl\bin\Release\MiRControl.exe.config
+C:\Users\asm\Desktop\WPF\MiRControl\MiRControl\bin\Release\MiRControl.exe
+C:\Users\asm\Desktop\WPF\MiRControl\MiRControl\bin\Release\MiRControl.pdb
+C:\Users\asm\Desktop\WPF\MiRControl\MiRControl\obj\Release\MiRControl.Form1.resources
+C:\Users\asm\Desktop\WPF\MiRControl\MiRControl\obj\Release\MiRControl.Properties.Resources.resources
+C:\Users\asm\Desktop\WPF\MiRControl\MiRControl\obj\Release\MiRControl.csproj.GenerateResource.Cache
+C:\Users\asm\Desktop\WPF\MiRControl\MiRControl\obj\Release\MiRControl.exe
+C:\Users\asm\Desktop\WPF\MiRControl\MiRControl\obj\Release\MiRControl.pdb
+C:\Users\asm\Desktop\WPF\MiRbutton\MiRControl\bin\Release\MiRControl.exe.config
+C:\Users\asm\Desktop\WPF\MiRbutton\MiRControl\obj\Release\MiRControl.exe
+C:\Users\asm\Desktop\WPF\MiRbutton\MiRControl\obj\Release\MiRControl.pdb
+C:\Users\asm\Desktop\WPF\MiRbutton\MiRControl\bin\Release\MiRControl.exe
+C:\Users\asm\Desktop\WPF\MiRbutton\MiRControl\bin\Release\MiRControl.pdb
+C:\Users\asm\Desktop\WPF\MiRbutton\MiRControl\obj\Release\MiRControl.Form1.resources
+C:\Users\asm\Desktop\WPF\MiRbutton\MiRControl\obj\Release\MiRControl.Properties.Resources.resources
+C:\Users\asm\Desktop\WPF\MiRbutton\MiRControl\obj\Release\MiRControl.csproj.GenerateResource.Cache

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Setting xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UserName>admin</UserName>
+  <UserPwd>admin</UserPwd>
+  <GUID>xxxx-xxxx-xxxx</GUID>
+  <Authority>YWRtaW46OGM2OTc2ZTViNTQxMDQxNWJkZTkwOGJkNGRlZTE1ZGZiMTY3YTljODczZmM0YmI4YTgxZjZmMmFiNDQ4YTkxOA==</Authority>
+  <basicIp>http://10.15.181.62/api/v2.0.0</basicIp>
+  <postIP>mission_queue</postIP>
+  <getIP>missions</getIP>
+  <postBody>{mission_id=xxxx-xxxx-xxxx</postBody>
+</Setting>

@@ -1,0 +1,9 @@
+C:\Users\ASM\Desktop\WPF\MiRbutton\chat1\bin\Debug\chat1.exe.config
+C:\Users\ASM\Desktop\WPF\MiRbutton\chat1\bin\Debug\chat1.exe
+C:\Users\ASM\Desktop\WPF\MiRbutton\chat1\bin\Debug\chat1.pdb
+C:\Users\ASM\Desktop\WPF\MiRbutton\chat1\obj\Debug\chat1.csprojResolveAssemblyReference.cache
+C:\Users\ASM\Desktop\WPF\MiRbutton\chat1\obj\Debug\chat1.Form1.resources
+C:\Users\ASM\Desktop\WPF\MiRbutton\chat1\obj\Debug\chat1.Properties.Resources.resources
+C:\Users\ASM\Desktop\WPF\MiRbutton\chat1\obj\Debug\chat1.csproj.GenerateResource.Cache
+C:\Users\ASM\Desktop\WPF\MiRbutton\chat1\obj\Debug\chat1.exe
+C:\Users\ASM\Desktop\WPF\MiRbutton\chat1\obj\Debug\chat1.pdb

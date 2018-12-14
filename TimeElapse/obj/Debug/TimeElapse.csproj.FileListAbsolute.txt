@@ -1,0 +1,9 @@
+C:\Users\ASM\Desktop\WPF\MiRbutton\TimeElapse\bin\Debug\TimeElapse.exe.config
+C:\Users\ASM\Desktop\WPF\MiRbutton\TimeElapse\bin\Debug\TimeElapse.exe
+C:\Users\ASM\Desktop\WPF\MiRbutton\TimeElapse\bin\Debug\TimeElapse.pdb
+C:\Users\ASM\Desktop\WPF\MiRbutton\TimeElapse\obj\Debug\TimeElapse.Properties.Resources.resources
+C:\Users\ASM\Desktop\WPF\MiRbutton\TimeElapse\obj\Debug\TimeElapse.csproj.GenerateResource.Cache
+C:\Users\ASM\Desktop\WPF\MiRbutton\TimeElapse\obj\Debug\TimeElapse.exe
+C:\Users\ASM\Desktop\WPF\MiRbutton\TimeElapse\obj\Debug\TimeElapse.pdb
+C:\Users\ASM\Desktop\WPF\MiRbutton\TimeElapse\obj\Debug\TimeElapse.Form1.resources
+C:\Users\ASM\Desktop\WPF\MiRbutton\TimeElapse\obj\Debug\TimeElapse.csprojResolveAssemblyReference.cache
