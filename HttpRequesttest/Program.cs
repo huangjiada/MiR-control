@@ -21,11 +21,6 @@ namespace HttpRequesttest
          * 2、mission_queue会返回一大列，我感觉有问题，要过滤所有abort，怎么遍历到最后一个呢？jo.count 有计数量
          * 3、put status可以实现状态转换，
          * 
-         * 每五分钟get一次status，如果暂停就put成开始
-         * 如果队列空呢？
-         * 如果电量低就插入电量充电任务在最前（或者保守一点，20且任务列表中无充电任务就发出充电任务？）
-         * mission_queue_id 可能为空可能为正在执行的任务，扫描正在执行任务后面是否有充电任务，abord呢？
-         * battery_percentage 精度非常高的，测试的时候直接取，小于20的指派充电任务
          * */
         struct information
         {

@@ -16,3 +16,6 @@ C:\Users\asm\Desktop\WPF\MiRbutton\MiRControl\obj\Debug\MiRControl.Properties.Re
 C:\Users\asm\Desktop\WPF\MiRbutton\MiRControl\obj\Debug\MiRControl.csproj.GenerateResource.Cache
 C:\Users\asm\Desktop\WPF\MiRbutton\MiRControl\bin\Debug\MiRControl.exe
 C:\Users\asm\Desktop\WPF\MiRbutton\MiRControl\bin\Debug\MiRControl.pdb
+C:\Users\ASM\Desktop\WPF\MiRbutton\MiR-control\MiRControl\bin\Debug\MiRControl.exe.config
+C:\Users\ASM\Desktop\WPF\MiRbutton\MiR-control\MiRControl\obj\Debug\MiRControl.exe
+C:\Users\ASM\Desktop\WPF\MiRbutton\MiR-control\MiRControl\obj\Debug\MiRControl.pdb
