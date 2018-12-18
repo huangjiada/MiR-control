@@ -65,7 +65,7 @@ namespace MiRControl
                 basicIp = "http://10.15.181.62/api/v2.0.0",
                 postIP = "mission_queue",
                 getIP = "missions",
-                postBody = "{mission_id=xxxx-xxxx-xxxx",
+                postBody = "{mission_id=xxxx-xxxx-xxxx}",
 
             };
             info = settingInit;
@@ -85,6 +85,7 @@ namespace MiRControl
 
             public string getIP { get; set; }
             public string postBody { get; set; }
+
         }
 
         private void btn_call_Click(object sender, EventArgs e)

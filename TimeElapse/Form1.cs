@@ -13,10 +13,10 @@ namespace TimeElapse
     public partial class Form1 : Form
     {
 
-        bool timer1state;//鏍囧織鐫€瀹氭椂鍣ㄦ槸鍚﹀紑鍚殑鍒ゆ柇
-        bool timer2state;//鏍囧織鐫€瀹氭椂鍣ㄦ槸鍙栨柊鍊艰繕鏄鏃у€艰繘琛屾殏鍋?
-                         // DateTime initdt = DateTime.Parse("00:01:10");//鍒濆鍖栨椂闂?
-        DateTime zerodt = DateTime.Parse("00:00:00");//23:59:59
+        //bool timer1state;//timer1是否运转的状态表示
+        bool timer2state;//标志定时器是取新值还是对旧值暂停
+                         // DateTime initdt = DateTime.Parse("00:01:10");//初始化时间
+        DateTime zerodt = DateTime.Parse("00:00:00");//结束时间为00:00:00 所以倒计时最大计时为23:59:59
         DateTime dt;
         string dttext;
         //string h;
@@ -25,36 +25,35 @@ namespace TimeElapse
         public Form1()
         {
             InitializeComponent();
-            //timer1.Enabled = true;
+           
             //dt = initdt;
-            timer1.Interval = 1000;
-            timer1state = false;
+            timer1.Interval = 1000;//计时器间隔1s
             timer2state = true;
             //label1.Text = DateTime.Now.Second.ToString();
             DateTime.Now.Hour.ToString();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
-        {//tick浜嬩欢鏄敤鏉ヨ鏃剁殑锛岄殧涓€绉掓墽琛屼竴娆″噺鏃堕棿鐨勬搷浣滐紝鍦ㄨ繖閲屽垽鏂鏃跺埌0鐨勬椂鍊欐墽琛岀壒瀹氭搷浣?
-         //鎰熻涔熶笉澶уソ锛岃寮€鏂扮嚎绋嬩笓闂ㄧ敤鏉ュ彂閫佹帴鏀讹紝姣旇緝涓嶈€楁椂闂?
+        {//tick事件是用来计时的，隔一秒执行一次减时间的操作，在这里判断计时到0的时候执行特定操作
+         //感觉也不大好，要开新线程专门用来发送接收，比较不耗时间
 
-            if (dt != zerodt)//鍒嗛挓濡備綍鍒ら浂锛燂紵
-            {
-                dt = dt.AddSeconds(-1);
+            if (dt != zerodt)//如何单独对分钟判零
+            {//若倒计时没到零，就减一并在label中显示出来
+                dt = dt.AddSeconds(-1);//计时器每秒tick一次，那么时间也每秒减1s
                 TimeLab.Text = dt.ToLongTimeString().ToString();
             }
             else
-            {
+            {//倒计时到零，停止计时器，timer1stata=false表示计时器停止了，timer2state表示
                 timer1.Stop();
                 StartButton.Text = "start";
-                timer1state = false;
+                //timer1state = false;
                 timer2state = true;
-                MessageBox.Show("fuck you time arrive");//鎰熻messagebox鏄紑浜嗘柊绾跨▼锛岀劧鍚庢棫绾跨▼灏变竴鐩存病鍋滄锛屽鏋滄斁鍦╰ime1.stop()涔嬪墠灏变細鍑虹幇澶氫釜妗嗙幇璞?
+                MessageBox.Show("fuck you time arrive");//感觉messagebox是开了新线程，然后旧线程就一直没停止，如果放在time1.stop()之前就会出现多个框现象
             }
         }
 
         private void StartButton_Click(object sender, EventArgs e)
-        {//寮€濮嬫寜閽寜涓嬪悗瀛楀彉涓哄仠姝㈡寜閽紝鍚屾椂鎺у埗瀹氭椂鍣ㄧ殑寮€鍏?
+        {//按下开始暂停按钮
 
             if (HourTextBox.Text != "" && MinuteTextBox.Text != "" && SecondTextBox.Text != "")
             {
@@ -62,25 +61,24 @@ namespace TimeElapse
             }
             else
                 MessageBox.Show("no zero please");
+
             if (timer2state)
-            {
-                dt = DateTime.Parse(dttext);//姣忔鎸夋殏鍋滈兘浼氬彇涓€閬嶅€掕鏃舵椂闂达紝閭ｄ箞鏆傚仠灏辩瓑浜庢槸閲嶈浜嗗憲锛?
+            {//timer2state 
+                dt = DateTime.Parse(dttext);//将string形式时间转换为datatime形式
+                //每次按暂停都会取一遍倒计时时间，那么暂停就等于是重设了呗？
                 TimeLab.Text = dt.ToLongTimeString().ToString();
-                timer2state = false;//绗竴娆＄殑鏃跺€欒鏍囧織浣嶇疆鍙嶏紝鍦ㄥ€掕鏃朵负闆舵椂鎵嶆爣蹇椾綅涓烘
+                timer2state = false;//第一次的时候让标志位置反，在倒计时为零时才标志位为正
             }
 
-
-            if (!timer1state)
-            {
+            if (!timer1.Enabled)
+            {//若按下按钮计时器未开始则令计时器开始，若计时器已开始则令计时器停止
                 timer1.Start();
-                StartButton.Text = "stop";//鏈変釜bug锛屼负浣曞仠姝簡浠ュ悗鍐嶅紑濮嬩細鍥炲埌绗竴娆″仠姝㈢殑鏃堕棿锛?
-                timer1state = true;
+                StartButton.Text = "stop";
             }
             else
             {
                 timer1.Stop();
                 StartButton.Text = "start";
-                timer1state = false;
             }
         }
 

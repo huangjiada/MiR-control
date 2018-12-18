@@ -35,7 +35,7 @@ namespace MiRControl
             }
             return ReturnXml;
         }
-        public string GET(string url)
+         public string GET(string url)
         {
             HttpWebRequest myRequest = (HttpWebRequest)WebRequest.Create(url);
             myRequest.Timeout = 5000;

@@ -1,0 +1,8 @@
+C:\Users\ASM\Desktop\WPF\MiRbutton\MiR-control\SQLtest\bin\Debug\SQLtest.exe.config
+C:\Users\ASM\Desktop\WPF\MiRbutton\MiR-control\SQLtest\bin\Debug\SQLtest.exe
+C:\Users\ASM\Desktop\WPF\MiRbutton\MiR-control\SQLtest\bin\Debug\SQLtest.pdb
+C:\Users\ASM\Desktop\WPF\MiRbutton\MiR-control\SQLtest\obj\Debug\SQLtest.Form1.resources
+C:\Users\ASM\Desktop\WPF\MiRbutton\MiR-control\SQLtest\obj\Debug\SQLtest.Properties.Resources.resources
+C:\Users\ASM\Desktop\WPF\MiRbutton\MiR-control\SQLtest\obj\Debug\SQLtest.csproj.GenerateResource.Cache
+C:\Users\ASM\Desktop\WPF\MiRbutton\MiR-control\SQLtest\obj\Debug\SQLtest.exe
+C:\Users\ASM\Desktop\WPF\MiRbutton\MiR-control\SQLtest\obj\Debug\SQLtest.pdb
