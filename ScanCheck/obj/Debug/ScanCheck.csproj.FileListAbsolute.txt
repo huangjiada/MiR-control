@@ -1,0 +1,11 @@
+C:\Users\huang\Desktop\WPF\MiR-control\ScanCheck\bin\Debug\ScanCheck.exe.config
+C:\Users\huang\Desktop\WPF\MiR-control\ScanCheck\bin\Debug\ScanCheck.exe
+C:\Users\huang\Desktop\WPF\MiR-control\ScanCheck\bin\Debug\ScanCheck.pdb
+C:\Users\huang\Desktop\WPF\MiR-control\ScanCheck\obj\Debug\ScanCheck.Form1.resources
+C:\Users\huang\Desktop\WPF\MiR-control\ScanCheck\obj\Debug\ScanCheck.Properties.Resources.resources
+C:\Users\huang\Desktop\WPF\MiR-control\ScanCheck\obj\Debug\ScanCheck.csproj.GenerateResource.Cache
+C:\Users\huang\Desktop\WPF\MiR-control\ScanCheck\obj\Debug\ScanCheck.exe
+C:\Users\huang\Desktop\WPF\MiR-control\ScanCheck\obj\Debug\ScanCheck.pdb
+C:\Users\huang\Desktop\WPF\MiR-control\ScanCheck\bin\Debug\MiRControl.exe
+C:\Users\huang\Desktop\WPF\MiR-control\ScanCheck\bin\Debug\MiRControl.pdb
+C:\Users\huang\Desktop\WPF\MiR-control\ScanCheck\obj\Debug\ScanCheck.csprojResolveAssemblyReference.cache

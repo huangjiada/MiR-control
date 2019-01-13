@@ -7,3 +7,10 @@ C:\Users\ASM\Desktop\WPF\MiRbutton\MiR-control\PowerTooLow\obj\Debug\PowerTooLow
 C:\Users\ASM\Desktop\WPF\MiRbutton\MiR-control\PowerTooLow\obj\Debug\PowerTooLow.csproj.GenerateResource.Cache
 C:\Users\ASM\Desktop\WPF\MiRbutton\MiR-control\PowerTooLow\obj\Debug\PowerTooLow.exe
 C:\Users\ASM\Desktop\WPF\MiRbutton\MiR-control\PowerTooLow\obj\Debug\PowerTooLow.pdb
+C:\Users\huang\Desktop\WPF\MiR-control\PowerTooLow\bin\Debug\PowerTooLow.exe.config
+C:\Users\huang\Desktop\WPF\MiR-control\PowerTooLow\obj\Debug\PowerTooLow.exe
+C:\Users\huang\Desktop\WPF\MiR-control\PowerTooLow\obj\Debug\PowerTooLow.pdb
+C:\Users\huang\Desktop\WPF\MiR-control\PowerTooLow\obj\Debug\PowerTooLow.csprojResolveAssemblyReference.cache
+C:\Users\huang\Desktop\WPF\MiR-control\PowerTooLow\obj\Debug\PowerTooLow.Form1.resources
+C:\Users\huang\Desktop\WPF\MiR-control\PowerTooLow\obj\Debug\PowerTooLow.Properties.Resources.resources
+C:\Users\huang\Desktop\WPF\MiR-control\PowerTooLow\obj\Debug\PowerTooLow.csproj.GenerateResource.Cache

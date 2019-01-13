@@ -1,0 +1,65 @@
+﻿using  System;
+ 
+class  Program
+{
+    public   enum  Color
+   {
+      Red  =   0xff0000 ,
+      Orange  =   0xFFA500 ,
+      Yellow  =   0xFFFF00 ,
+      Lime  =   0x00FF00 ,
+      Cyan  =   0x00FFFF ,
+      Blue  =   0x0000FF ,
+      Purple  =   0x800080 
+   }
+ 
+    static   void  Main( string [] args)
+   {
+      Color color  =  Color.Blue;
+       string  colorString  =   " Blue " ;
+       int  colorValue  =   0x0000FF ;
+ 
+       // 枚举转字符串 
+       string  enumStringOne  =  color.ToString(); //效率低，不推荐
+       string  enumStringTwo  =  Enum.GetName( typeof (Color), color);//推荐
+ 
+       // 枚举转值 
+       int  enumValueOne  =  color.GetHashCode();
+       int  enumValueTwo  =  ( int )color;
+       int  enumValueThree  =  Convert.ToInt32(color);
+ 
+       // 字符串转枚举 
+      Color enumOne  =  (Color)Enum.Parse( typeof (Color), colorString);
+ 
+       // 字符串转值 
+       int  enumValueFour  =  ( int )Enum.Parse( typeof (Color), colorString);
+ 
+       // 值转枚举 
+      Color enumTwo  =  (Color)colorValue;
+      Color enumThree  =  (Color)Enum.ToObject( typeof (Color), colorValue);
+ 
+       // 值转字符串 
+       string  enumStringThree  =  Enum.GetName( typeof (Color), colorValue);
+   }
+}
+ 
+ 
+// 假设有枚举值如下： 
+ 
+public   enum  DbProviderType
+ 
+  {
+ 
+      SqlServer,
+ 
+      Oracle
+ 
+  }
+// 1、将枚举转换为字符串： 
+ 
+string  strDbType  =  DbProviderType.SqlServer.ToString();
+// 2、将字符串转换为枚举： 
+DbProviderType dbType  =  (DbProviderType)Enum.Parse( typeof (DbProviderType), strDbType,  true );
+
+2019年1月13日22:57:05
+后面要弄guid对应枚举，降低做新项目的难度
